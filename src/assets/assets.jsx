@@ -15,7 +15,7 @@ import phoneCall from './images/phone-call.svg';
 import shape from './images/shape.svg';
 import shoppingBag from './images/shopping-bag.svg';
 import star from './images/star.svg'; 
-import veggies from './images/vegetable salad.svg'; 
+import veggies from './images/Vegetable salad.svg'; 
 import video from './images/video.svg'; 
 import icon1 from './images/F.svg'; 
 import icon2 from './images/oodi.svg'; 
