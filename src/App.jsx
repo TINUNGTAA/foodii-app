@@ -2,6 +2,7 @@
 
 import Header from   "./components/header.jsx";
 import HeroSection from "./components/HeroSection.jsx";
+import favorites from "./components/Favorites.jsx";
 
 
  function App() {
@@ -10,6 +11,9 @@ import HeroSection from "./components/HeroSection.jsx";
 
       <Header/>
       <HeroSection/>
+      <favorites/>
+
+    
 
     </div>
   )
