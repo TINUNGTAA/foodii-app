@@ -18,7 +18,7 @@ function heroSection(){
 
                           <div className=" flex lg:flex-row flex-col lg:mt-12 mt-6  items-start lg:items-center gap-6">
                             
-                            <button className="  px-10  py-4 bg-primary text-white font-bold  lg:text-2xl lg:text-center rounded-full">Order Now</button> 
+                            <button className="  px-8 py-4 bg-primary text-white font-bold  lg:text-2xl lg:text-center rounded-full">Order Now</button> 
                          <p className="lg:text-2xl  text-xl font-semibold text-gray-600">Watch video </p>  <img src= {assets.video} className="p-6  hover:bg-gray-200 rounded-full shadow-lg" />
                             
                          
