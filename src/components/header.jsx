@@ -34,7 +34,7 @@ function Header() {
           </button>
         </div>
 
-        <div className="flex lg:hidden items-center relative">
+        <div className="flex lg:hidden items-center z-12 relative">
           <img
             src={assets.menu}
             alt="menu"
@@ -43,12 +43,13 @@ function Header() {
           />
 
           {menuOpen && (
-            <div className="absolute right-0 mt-2 bg-white p-4 rounded-lg w-40 shadow-lg z-10">
+            <div className="absolute top-full right-0  mt-2 bg-gray-200 p-4 h-70 rounded-lg w-40 shadow-lg  z-50">
               <nav className="flex flex-col gap-2 text-base font-medium text-gray-800">
-                <a href="#" className="hover:text-primary">Home</a>
-                <a href="#" className="hover:text-primary">Menu</a>
-                <a href="#" className="hover:text-primary">Service</a>
-                <a href="#" className="hover:text-primary">Offer</a>
+                <a href="#" className="hover:text-primary text-center">Home</a>
+                <a href="#" className="hover:text-primary text-center">Menu</a>
+                <a href="#" className="hover:text-primary text-center">Service</a>
+                <a href="#" className="hover:text-primary text-center">Offer</a>
+                <a href="#" className="hover:text-primary text-center">Contact</a>
               </nav>
             </div>
           )}

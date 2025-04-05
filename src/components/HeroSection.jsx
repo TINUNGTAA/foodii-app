@@ -21,8 +21,8 @@ function heroSection(){
                             lg:mt-12 mt-6   items-center gap-6">
                             
                             <button className="  
-                             bg-primary text-white font-bold px-10 py-4 lg:text-2xl lg:text-center rounded-full">Order Now</button> 
-                         <p className="lg:text-2xl  text-xl font-semibold text-gray-600">Watch video </p>  <img src= {assets.video} className="p-6  hover:bg-gray-200 rounded-full shadow-lg" />
+                             bg-primary text-white py-2 px-6 font-bold md:px-10 md:py-4 lg:text-2xl lg:text-center rounded-full">Order Now</button> 
+                         <p className="lg:text-2xl  text-xl font-semibold text-gray-600">Watch video </p>  <img src= {assets.video} className="md:p-6 p-4 hover:bg-gray-200 rounded-full shadow-lg" />
                             
                          
                           </div>
