@@ -11,30 +11,23 @@ function Customer (){
                   
                 </div>  
 
-                {/* <div className="flex  w-[350px] h-[350px] bg-green-300 items-center justify-center   rounded-xl">
-                    <div className=" bg-gray-500 border rounded-full ">
-                      
-                           
-                          <img src={assets.mainDish} className="rounded-full"  />
-                        
-                            
-                       
-
-                   
-                    </div>
+            
 
                     
                    
 
                    
                      
-                </div> */}
+                
 
 <div className="lg:flex-row  flex-col flex  gap-16 ">
 
 
-  
-<div className=" flex-col bg-white w-[220px] h-[220px] lg:w-[320px] lg:h-[300px]   items-center   shadow-lg rounded-3xl">
+{/* top */}
+<div className="flex flex-row lg:gap-16 gap-4">
+
+
+  <div className=" flex-col bg-white w-[220px] h-[220px] lg:w-[320px] lg:h-[300px]   items-center   shadow-lg rounded-3xl">
   <div className="bg-green-300 border rounded-full w-[100px] h-[100px]  lg:h-[180px] lg:w-[180px] mx-auto mt-6 flex flex-col items-center justify-center text-center">
     
     <img src={assets.mainDish} className=" rounded-full" />
@@ -43,13 +36,12 @@ function Customer (){
 
   </div>
   <div className="text-center mt-6">
-  <p className=" font-bold ">  Main Dish</p>
+  <p className=" font-bold text-xl">  Main Dish</p>
   <p className="text-gray-500 font-bold">(86 dishes)</p>
   <p></p>
 
   </div>
 </div>
-
 
 <div className="flex-col  bg-white w-[220px] h-[220px]  lg:w-[320px] lg:h-[300px]  items-center  shadow-lg rounded-3xl">
   <div className="bg-green-300 border rounded-full w-[100px] h-[100px]  lg:h-[180px] lg:w-[180px] mx-auto mt-6 flex flex-col items-center justify-center text-center">
@@ -60,13 +52,19 @@ function Customer (){
 
   </div>
   <div className="text-center mt-6">
-  <p className=" font-bold "> Breakfast</p>
-  <p>(12 dishes)</p>
+  <p className=" font-bold text-xl"> Breakfast</p>
+  <p className="text-gray-500 font-bold">(12 dishes)</p>
   <p></p>
 
   </div>
 </div>
 
+</div>
+
+
+
+{/* down */}
+<div  className="flex flex-row lg:gap-16 gap-4">
 
 <div className="flex-col  bg-white w-[220px] h-[220px]  lg:w-[320px] lg:h-[300px] items-center  shadow-lg rounded-3xl">
   <div className="bg-green-300 border rounded-full w-[100px] h-[100px]  lg:h-[180px] lg:w-[180px] mx-auto mt-6 flex flex-col items-center justify-center text-center">
@@ -77,14 +75,15 @@ function Customer (){
 
   </div>
   <div className="text-center mt-6">
-  <p className=" font-bold "> Dessert </p>
-  <p>(48 dishes)</p>
+  <p className=" font-bold text-xl"> Dessert </p>
+  <p className="text-gray-500 font-bold">(48 dishes)</p>
   <p></p>
 
   </div>
-</div>
+  </div>
 
-<div className="flex-col  bg-white w-[220px] h-[220px]  lg:w-[320px] lg:h-[300px] items-center  shadow-lg rounded-3xl">
+
+  <div className="flex-col  bg-white w-[220px] h-[220px]  lg:w-[320px] lg:h-[300px] items-center  shadow-lg rounded-3xl">
   <div className="bg-green-300 border rounded-full w-[100px] h-[100px]  lg:h-[180px] lg:w-[180px] mx-auto mt-6 flex flex-col items-center justify-center text-center">
     
     <img src={assets.browse} className=" rounded-full " />
@@ -93,12 +92,24 @@ function Customer (){
 
   </div>
   <div className="text-center mt-6">
-  <p className=" font-bold "> Browse All</p>
-  <p>(225 dishes)</p>
+  <p className=" font-bold text-xl "> Browse All</p>
+  <p className="text-gray-500 font-bold">(225 dishes)</p>
   <p></p>
 
   </div>
 </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
 
 </div>
 

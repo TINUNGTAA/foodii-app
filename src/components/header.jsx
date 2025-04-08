@@ -5,7 +5,7 @@ function Header() {
   const [menuOpen, setOpen] = useState(false);
 
   return (
-    <section className="mt-6 px-6 lg:px-28">
+    <section className=" py-6 px-6   lg:px-28">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-2">
           <span className="text-3xl font-bold bg-green-500 border px-2 rounded-lg text-white">F</span>
