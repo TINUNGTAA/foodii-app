@@ -20,6 +20,8 @@ import video from './images/video.svg';
 import icon1 from './images/F.svg'; 
 import icon2 from './images/oodi.svg'; 
 import menu from './images/menu.svg'; 
+import right from './images/arrowRight.svg';
+import lefts from './images/arrowLeft.svg';
 
 
 
@@ -47,6 +49,8 @@ const assets = {
     icon1,
     icon2,
     menu,
+    right,
+    lefts,
 
 };
 

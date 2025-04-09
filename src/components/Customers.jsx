@@ -7,7 +7,7 @@ function Customer (){
             <div className=" flex flex-col mx-auto">
                 <div className=" flex-col  mx-auto  mb-16">
                     <p className="text-sm  text-center font-bold text-[#FF6868]">CUSTOMER FAVORITES</p>
-                   <h1 className="mt-6 text-5xl font-bold mb-12 ">Popular Categories</h1>
+                   <h1 className="lg:mt-6 mt-3 text-5xl font-bold mb-6 lg:mb-12 ">Popular Categories</h1>
                   
                 </div>  
 
@@ -20,7 +20,7 @@ function Customer (){
                      
                 
 
-<div className="lg:flex-row  flex-col flex  gap-16 ">
+<div className="lg:flex-row  flex-col flex  gap-4 lg:gap-16 ">
 
 
 {/* top */}
