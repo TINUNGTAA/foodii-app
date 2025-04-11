@@ -22,6 +22,10 @@ import icon2 from './images/oodi.svg';
 import menu from './images/menu.svg'; 
 import right from './images/arrowRight.svg';
 import lefts from './images/arrowLeft.svg';
+import pic1 from  './images/pic1.svg';
+import pic2 from  './images/pic2.svg';
+import pic3 from  './images/pic3.svg';
+import oval from  './images/oval.svg';
 
 
 
@@ -51,6 +55,10 @@ const assets = {
     menu,
     right,
     lefts,
+    pic1,
+    pic2,
+    pic3,
+    oval,
 
 };
 

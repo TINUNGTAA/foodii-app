@@ -3,13 +3,13 @@ import assets from "../assets/assets";
 
 function heroSection(){
     return(
-        <section className=" lg:mt-0 mt-16  lg:px-28 px-10">
+        <section className=" lg:mt-0 mt-16   bg-gray-100 lg:px-28 px-10">
             <div className="flex  justify-between lg:flex-row flex-col items-center  lg:gap-[300px]    ">
                 {/* left */}
                 <div className="flex-1 ">
 
-                    <  h className="lg:text-5xl md:text-3xl  sm:text-center text-2xl font-bold text-center 
-                     text-black"> Dive into Delights of<br/> Delectable Food </h>
+                    <  h1 className="lg:text-5xl md:text-3xl  sm:text-center text-2xl font-bold text-center 
+                     text-black"> Dive into Delights of<br/> Delectable Food </h1>
                     
                     <p className=" text-xl  lg:text-3xl text-gray-600 
                      mt-6 lg:mt-12">Where Each Plate Weaves a Story of Culinary Mastery and Passionate Craftsmanship</p>
