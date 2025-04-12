@@ -8,7 +8,7 @@ function heroSection(){
                 {/* left */}
                 <div className="flex-1 ">
 
-                    <  h1 className="lg:text-5xl md:text-3xl  sm:text-center text-2xl font-bold text-center 
+                    <  h1 className="lg:text-5xl md:text-3xl  lg:text-start text-center text-2xl font-bold 
                      text-black"> Dive into Delights of<br/> Delectable Food </h1>
                     
                     <p className=" text-xl  lg:text-3xl text-gray-600 
@@ -22,7 +22,7 @@ function heroSection(){
                             
                             <button className="  
                              bg-primary text-white font-bold px-10 py-4 text-2xl lg:text-center rounded-full">Order Now</button>
-                             <div></div> 
+                             
                          <p className="text-2xl    font-semibold text-gray-600">Watch video  <img src= {assets.video} className="p-6  hover:bg-gray-200 rounded-full shadow-lg" />   </p>   
                             
                          

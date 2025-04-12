@@ -26,6 +26,15 @@ import pic1 from  './images/pic1.svg';
 import pic2 from  './images/pic2.svg';
 import pic3 from  './images/pic3.svg';
 import oval from  './images/oval.svg';
+import m1 from  './images/m1.svg';
+import m2 from  './images/m2.svg';
+import m3 from  './images/m3.svg';
+import m4 from  './images/m4.svg';
+import facebook from  './images/facebook.svg';
+import insta from  './images/insta.svg';
+import twitter from  './images/twitter.svg';
+import youtube from  './images/youtube.svg';
+
 
 
 
@@ -59,6 +68,15 @@ const assets = {
     pic2,
     pic3,
     oval,
+    m1,
+    m2,
+    m3,
+    m4,
+    facebook,
+    insta,
+    youtube,
+    twitter,
+
 
 };
 

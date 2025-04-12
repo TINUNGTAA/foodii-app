@@ -5,6 +5,8 @@ import HeroSection from "./components/HeroSection.jsx";
 import Customer from "./components/Customers.jsx";
 import SpecialDish from "./components/special.jsx";
 import Testimonials from "./components/testimonials.jsx";
+import Service from "./components/service.jsx";
+import Footer from  "./components/footer.jsx";
 
 
  function App() {
@@ -16,6 +18,8 @@ import Testimonials from "./components/testimonials.jsx";
      <Customer/>
      <SpecialDish/>
      <Testimonials/>
+     <Service/>
+     <Footer/>
 
     
 

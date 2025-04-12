@@ -4,7 +4,7 @@ import assets from "../assets/assets";
 
 function Testimonials(){
 return(
-    <section  className="py-[160px] lg:px-28 px-10 bg-gray-100">
+    <section  className="py-[160px] lg:py-0  lg:px-28 px-10 bg-gray-100">
 
         <div className="flex  flex-col lg:flex-row
         justify-between gap-[150px] items-center">
