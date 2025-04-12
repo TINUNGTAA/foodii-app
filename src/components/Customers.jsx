@@ -3,7 +3,7 @@ function Customer (){
 
 
     return(
-        <section className=" mt-16  lg:px-28 bg-gray-100 px-10">
+        <section className=" py-16  lg:px-28 bg-gray-100 px-10">
             <div className=" flex flex-col mx-auto">
                 <div className=" flex-col  mx-auto  mb-16">
                     <p className="text-sm  text-center font-bold text-[#FF6868]">CUSTOMER FAVORITES</p>
