@@ -25,7 +25,7 @@ function Service(){
                     <div className="flex gap-6 lg:gap-12">
                        
                        
-                        <div className=" flex-col   bg-white max-w-[220px] max-h-[300px] lg:max-w-[320px] lg:p-12  p-6  lg:max-h-[300px]     items-center shadow-lg rounded-3xl">
+                        <div className=" flex-col   bg-white w-[220px] h-[300px] lg:w-[320px] lg:p-12  p-6  lg:h-[300px]     items-center shadow-lg rounded-3xl">
                             <div className="flex justify-center mb-6">
                                 <img src={assets.m2}/>
 
@@ -40,7 +40,7 @@ function Service(){
 
 
 
-                        <div className=" flex-col   bg-white max-w-[220px] max-h-[300px] lg:max-w-[320px] lg:max-h-[300px] flex-shrink-0    items-center  lg:p-12  p-6  shadow-lg rounded-3xl">
+                        <div className=" flex-col   bg-white w-[220px] h-[300px] lg:min-w-[320px] lg:min-h-[300px] flex-shrink-0    items-center  lg:p-12  p-6  shadow-lg rounded-3xl">
                             <div className="flex justify-center mb-6">
                                 <img src={assets.m4}/>
 
@@ -61,7 +61,7 @@ function Service(){
                     <div className="flex  gap-6 lg:gap-12">
                        
                        
-                       <div className=" flex-col   bg-white max-w-[220px] max-h-[300px] lg:max-w-[320px] lg:max-h-[300px] flex-shrink-0  items-center  lg:p-12  p-6  shadow-lg rounded-3xl">
+                       <div className=" flex-col   bg-white w-[220px] h-[300px] lg:min-w-[320px] lg:min-h-[300px] flex-shrink-0  items-center  lg:p-12  p-6  shadow-lg rounded-3xl">
                            <div className="flex justify-center mb-6">
                                <img src={assets.m3}/>
 
@@ -76,7 +76,7 @@ function Service(){
 
 
 
-                       <div className=" flex-col   bg-white max-w-[220px] max-h-[300px] lg:max-w-[320px] lg:max-h-[300px] flex-shrink-0   items-center lg:p-12  p-6 shadow-lg rounded-3xl">
+                       <div className=" flex-col   bg-white w-[220px] h-[300px] lg:min-w-[320px] lg:min-h-[300px] flex-shrink-0   items-center lg:p-12  p-6 shadow-lg rounded-3xl">
                            <div className="flex justify-center mb-6">
                                <img src={assets.m1}/>
 
