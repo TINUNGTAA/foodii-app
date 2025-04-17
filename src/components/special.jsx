@@ -3,10 +3,14 @@ import assets from "../assets/assets";
 
 function DishCard({ dish }) {
   return (
-    <div className="min-w-[446px] h-[523px] rounded-3xl bg-white">
+    <div className="max-w-[446px] max-h-[523px] rounded-3xl bg-white">
       <div className="flex flex-col p-12">
         <div className="flex justify-center">
-          <img src={dish.image} alt={dish.name} className="max-h-[280px] object-contain" />
+          <img
+            src={dish.image}
+            alt={dish.name}
+            className="max-h-[280px] object-contain"
+          />
         </div>
         <div className="flex flex-col mt-10">
           <h1 className="font-bold text-2xl">{dish.name}</h1>
@@ -45,15 +49,21 @@ function SpecialDish() {
     setShowFirstThree(!showFirstThree);
   };
 
-  const visibleDishes = showFirstThree ? dishes.slice(0, 3) : dishes.slice(3, 6);
+  const visibleDishes = showFirstThree
+    ? dishes.slice(0, 3)
+    : dishes.slice(3, 6);
 
   return (
     <section className="py-[160px] lg:px-28 bg-gray-100 px-10">
       <div className="flex flex-col">
         <div className="flex justify-between gap-[600px]">
           <div className="flex flex-1 flex-col">
-            <p className="text-sm font-bold mb-6 text-[#FF6868]">SPECIAL DISHES</p>
-            <h1 className="text-5xl font-bold">Standout Dishes From Our Menu</h1>
+            <p className="text-sm font-bold mb-6 text-[#FF6868]">
+              SPECIAL DISHES
+            </p>
+            <h1 className="text-5xl font-bold">
+              Standout Dishes From Our Menu
+            </h1>
           </div>
           <div className="flex flex-1 py-[65px] gap-10 justify-end">
             <button

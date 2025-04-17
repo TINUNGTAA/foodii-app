@@ -93,8 +93,9 @@ function Customer (){
   </div>
   <div className="text-center mt-6">
   <p className=" font-bold text-xl "> Browse All</p>
+
   <p className="text-gray-500 font-bold">(225 dishes)</p>
-  <p></p>
+
 
   </div>
 </div>

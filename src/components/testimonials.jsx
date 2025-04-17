@@ -11,7 +11,7 @@ return(
             {/* left */}
 
             <div className="flex flex-1">
-                <div style={{backgroundImage: `url(${assets.oval})`,backgroundSize: 'cover'}}
+                <div className="bg-cover" style={{backgroundImage: `url(${assets.oval})`}}
                 
                 
                 >
@@ -50,7 +50,7 @@ return(
             <h1 className=" text-xl  lg:text-2xl font-bold ">Customer Feedback</h1>
 
             <div className="flex gap-3 mt-3"><img src={assets.star}/> 
-            <p className="text-gray-700 font-bold lg:text-2xl text-xl"></p>
+            <p className="text-gray-700 font-bold lg:text-2xl text-xl" id="star">0</p>
             <p className=" lg:text-2xl text-xl  font-semibold text-gray-600">(18.6k Reviews)</p></div>
             </div>
 
