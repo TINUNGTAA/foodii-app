@@ -3,7 +3,7 @@ import assets from "../assets/assets";
 
 function DishCard({ dish }) {
   return (
-    <div className="max-w-[446px] max-h-[523px] rounded-3xl bg-white">
+    <div className="min-w-[446px] min-h-[523px] rounded-3xl bg-white">
       <div className="flex flex-col p-12">
         <div className="flex justify-center">
           <img
